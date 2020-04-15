@@ -1,0 +1,255 @@
+.corner-all {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    /* definindo o raio das bordas para todos os motores de navegadores */
+}
+ 
+#sidebar-menu{
+    z-index: 10;
+    margin-left: 10px;
+    padding-left: 62vh;  
+}
+
+.menu-item {
+    display: block;
+    width: 10em;
+    padding: 0.2em;
+    background-color: white;
+    border: 0.1em solid #2e2e30;
+    text-align: center;
+    float: left;
+    border: ridge 7px;
+    border-color: #f2f2f2;
+    height: 5vh;
+    padding-top: 3vh;
+}
+.menu-item:hover .submenu { /*Como a lista irá se comportar quando passado o mouse acima*/
+    display: block;
+    padding: 0.2em;
+}
+.menu-item span {
+    font-size: 1.1em;
+    color: dimgray;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+
+.menu-item2 {
+    display: block;
+    width: 10em;
+    padding: 0.2em;
+    background-color: white;
+    border: 0.1em solid #2e2e30;
+    text-align: center;
+    float: left;
+    border: ridge 7px;
+    border-color: #f2f2f2;
+    height: 3vh;
+    padding-top: 1.2vh;  
+}
+.menu-item2:hover .submenu { /*Como a lista irá se comportar quando passado o mouse acima*/
+    display: block;
+    padding: 0.2em;
+}
+.menu-item2 span {
+    font-size: 1.1em;
+    color: dimgray;
+    font-family: Arial; 
+    font-weight: bold; 
+}
+
+
+.submenu {
+    position: relative; /* define que a posição do submenu vai ser relativa a sua tag pai */
+    display: none; 
+    background-color: #4c4c4c; 
+    list-style: none;
+}
+.submenu a {
+    text-decoration: none; 
+    color: #e8e8e8;
+}
+.submenu a:hover {
+    color: #222222;
+}
+body{
+    margin: 0 auto;
+}
+#divlogo{
+    width: 100%;
+    height: 19vh;
+    margin-top: -1vh;
+}
+#imglogo{
+    height: 16vh;
+    width: 35vh;
+    float: left;
+    margin-left: 10vh;
+    margin-right: 9vh;
+    padding-top: 2vh;
+}
+#napnepaint{
+    margin-left: 9vh;
+    height: 18vh;
+    width: 36vh;
+    margin-top: 2vh;
+    float: left;
+    margin-right: 8vh;
+}
+#napnelogo{
+    float: right;
+    height: 15vh;
+    width: 30vh;
+    margin-right: 10vh;
+    padding-top: 2vh;
+}
+#embaixodologo{
+    height: 6vh;
+    background-color: white;
+    padding-left: 23vh;
+}
+#ifsul{
+    padding-top: 10vh;
+    float: left;
+}
+#linkifsul:link{
+    text-decoration: none; 
+    color: dimgray;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+#linkifsul:active{
+    text-decoration: none; 
+    color: dimgray;
+}
+#linkifsul:visited{
+    text-decoration: none; 
+    color: dimgray;
+}
+#linkifsul:hover{
+    color: dimgray;
+    text-decoration: none;
+}
+#napne{
+    float: left;
+    padding-top: 10vh;
+}
+
+
+/* ------------------------------------------ */
+
+#cadastro{
+    font-family: Arial;
+    font-size: 13pt;
+    width: 60%;
+    height: 20vh;
+    margin-top: 3vh;
+    margin-left: 40vh;
+    text-align: justify;
+    text-justify: inter-word;
+    float: left;
+    font-weight: bold;
+}
+
+form{
+    margin-left: 4vh;
+    padding-left: 1vh;
+    border-left: solid 1vh;
+    border-color: white;
+}
+
+#texto5{
+    font-family: Arial;
+    font-size: 16pt;
+    font-weight: 700;
+    line-height: 1.5;
+    background-color: white;   
+}
+
+input {
+    margin-left: 1vh;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+#teste{
+    width: 3vh;
+}
+#submit, #resetar{
+    margin-top: 3vh;
+    font-weight: bold;
+    border: solid 3px;
+    background-color: white;
+}
+
+hr{
+    margin-top: 5vh;
+    border-bottom: ridge 1.5vh;
+    border-color: white;
+    border-bottom-left-radius: 1.5vh;
+    border-bottom-right-radius: 1.5vh;
+}
+
+#ajudar{
+    height: 70vh;
+    text-align: justify;
+    text-justify: inter-word;
+    float: left;
+    padding-top: 5vh
+}
+
+#imgnapne5{
+    height: 50vh;
+    width: 50vh;
+    margin-left: 34vh;
+}
+
+#botao5{
+    margin-top: 3vh;
+    margin-left: 44vh;
+    border: ridge 7px;
+    border-color: #f2f2f2;
+    background-color: white;
+    color: dimgray;
+    font-size: 18pt;
+    font-family: Arial;
+    font-weight: bold;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+}
+
+#texto6{
+    height: 50vh;
+    padding-top: 3vh;
+    padding-left: 5vh;
+    display: none;
+    
+}
+
+footer.fixar-rodape{
+    border-top: 1px solid #333;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+}
+
+footer{
+    width: 100%;
+    height: 40px;
+    float: left;
+    text-align: center;
+    color: dimgray;
+    font-size: 13pt;
+    font-family: Arial;
+    font-weight: bold;
+    background-color: white;
+    margin-top: 24vh;
+    padding-bottom: 2vh;
+}

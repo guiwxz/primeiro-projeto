@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta Charset="UTF-8" />
+        <title>NAPNE</title>
+        <link type="text/css" rel="stylesheet" href="CSS/style4.css" />
+        
+        <script src="JS/jquery-3.4.1.js">
+        </script>
+        
+        <script src="JS/script.js">
+        </script>  
+    </head>
+    <body bgcolor="#e2e2e2">
+        <header> 
+        <div id="divlogo">
+            <img id="imglogo" src="midia/ifsul.png" alt="logoifsul"/>
+            <a id="linkifsul" href="http://www.ifsul.edu.br/" target="_blank">
+                <nav id="ifsul">
+                    <li class="menu-item corner-all">
+                        IFSUL
+                    </li>
+                </nav>
+            </a>
+            <img id="napnepaint" src="midia/napnepaint.png" alt="imagem escrito napne no paint"/>
+            <nav id="napne">
+                <li class="menu-item corner-all">
+                    <span>NAPNE</span>
+                    <ul class="submenu">
+                        <li class="submenu-item">
+                            <a href="index2.html">Mais sobre</a>
+                        </li>
+                        <li class="submenu-item">
+                            <a href="http://pelotas.ifsul.edu.br/nucleos/napne">Página do NAPNE</a>
+                        </li>
+                        <li class="submenu-item">
+                            <a href="index3.html">Contato</a>
+                        </li>
+                    </ul>
+                </li>
+            </nav>
+            <img id="napnelogo" src="midia/napnelogo.png" alt="logo napne"/>
+        </div>
+        <div id="embaixodologo">
+            <a id="linkifsul" href="index.html">
+                <div id="sidebar-menu">
+                    <ul class="menu">
+                        <li class="menu-item2 corner-all">
+                            Página Inicial
+                        </li>
+                    </ul>
+                </div>
+            </a>
+        </div>
+        </header>
+        <div id="teste">
+            <p id="titulo"><u>Breve teste de audição</u></p>
+            <hr/>
+            <span style="font-size: 10pt; font-family: Arial; font-style: italic">Certifique-se que o volume do seu aparelho está ativado em 100%</span>
+            <hr/>
+            <br/>     
+        <audio controls><source src="midia/testedeaudicao.mp3"/></audio>
+            
+            <form method="get" target="_self" onsubmit="teste()">
+                <label>
+                    <span style="font-size: 12pt; font-family: Arial; font-weight: bold">Digite a partir de quantos segundos você ouviu</span><br/><input id="testando" type="number"/>
+                </label>
+                <br/>
+                <input type="submit" value="Veredito"/>
+            </form>
+
+        </div>
+        
+        <footer class="fixar-rodape">
+            <p>@Copyright Guilherme Manfroi 2019 <br/> Website desenvolvido na disciplina de CPW do curso de Ciência da Computação.</p>
+        </footer>
+    </body>
+</html>
